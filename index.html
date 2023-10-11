@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghusfood Resto</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="assets/img/logo-resto.png" alt="">
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#beranda">Beranda</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#testimoni">Testimoni</a>
+          </li>
+          <li>
+            <a href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="beranda" class="jumbotron">
+      <h1>Selamat datang di Ghusfood Resto,<br> rasakan kenikmatan masakan nusantara yang khas dan enak! </h1>
+      <a href="#">Pesan Sekarang!</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Konten artikel -->
+    <div class="content">
+      <article id="menu" class="card judul">
+        <h2>Menu</h2>
+        <p>
+          Ghusfood Resto telah hadir sejak tahun 2023, melayaani masyrakat dengan masakan Nusantara pilihan. Kunjungi Resto kami sekarang !
+        </p>
+
+        <section>
+          <h3>Menu Pilihan</h3>
+          <div class="galery">
+            <div class="image">
+              <img src="assets/img/ayam goreng.png" alt="">
+            </div>
+            <div class="image">
+              <img src="assets/img/bakso.png" alt="">
+            </div>
+            <div class="image">
+              <img src="assets/img/mie.png" alt="">
+            </div>
+            <div class="image">
+              <img src="assets/img/nasgor.png" alt="">
+            </div>
+            <div class="image">
+              <img src="assets/img/sate.png" alt="">
+            </div>
+            <div class="image">
+              <img src="assets/img/gudeg.png" alt="">
+            </div>
+          </div>
+          <div class="zoom" id="zoom">
+            <span class="close">&times;</span>
+            <img class="zoom-content" id="zoomImg">
+          </div>
+        </section>
+
+        <section>
+          <div class="menu-fav">
+            <h3>Menu Favorit Bersama</h3>
+            <div class="list-menu card">
+              <div class="menu-text">
+                <h4>Nasi Liwet Khas Sunda</h4>
+                <p>Nasi liwet adalah makanan tradisional Indonesia yang berasal dari daerah Jawa Barat. Biasanya disajikan dengan santan, daun salam, serai, dan rempah-rempah, serta lauk seperti ayam suwir, telur pindang, dan sambal. Nasi liwet memiliki cita rasa khas dan biasanya dimakan bersama-sama dalam satu wadah.</p>
+              </div>
+              <div class="menu-image">
+                <img src="assets/img/nasi liwet.png" alt="Nasi Liwet">
+              </div>
+            </div>
+            <div class="list-menu card">
+              <div class="menu-text">
+                <h4>Parasmanan</h4>
+                <p>Parasmanan merupakan istilah dalam budaya Batak di Indonesia yang mengacu pada makanan yang disajikan dalam acara-acara tertentu, seperti perayaan keluarga atau upacara adat. Parasmanan Batak umumnya berupa hidangan lezat seperti ikan bakar, saksang (masakan daging sapi), arsik (masakan ikan), dan sayur-sayuran.</p>
+              </div>
+              <div class="menu-image">
+                <img src="assets/img/parasmanan.jpg" alt="Parasmanan">
+              </div>
+            </div>
+            <div class="list-menu card">
+              <div class="menu-text">
+                <h4>Coffee Break</h4>
+                <p>coffee break melibatkan minuman seperti kopi, teh, dan makanan ringan seperti kue atau camilan. Ini memberikan kesempatan untuk beristirahat, berbincang santai, dan bersosialisasi selama jeda dalam kegiatan atau acara.</p>
+              </div>
+              <div class="menu-image">
+                <img src="assets/img/coffee break.jpg" alt="Coffee Break">
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article id="testimoni" class="card judul">
+        <div class="testi-bg">
+          <div class="testi-client">
+            <h2>Testimoni</h2>
+            <p>"Masakan Ghusfood Resto sangat cocok untuk lidah saya, masakan nusantaranya beda banget rasanya lebih mantap!"</p>
+            <img src="assets/img/mba-dina.png" alt="Mba Dina">
+            <p>Mba Dina</p>
+          </div>
+        </div>
+      </article>
+
+      <article id="kontak" class="card judul">
+        <h2>Kontak</h2>
+        <div class="kontak">
+          <div class="side">
+            <div class="sosmed">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-telegram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="email">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukan nama anda" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Masukan email anda" required>
+              </div>
+              <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="10" placeholder="Masukan pesan anda disini" required></textarea>
+              </div>
+              <button type="submit">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Konten samping -->
+    <aside>
+      <article class="profile card">
+        <header>
+          <h2>Owner Ghusfood Resto</h2>
+          <p>Profil</p>
+          <figure>
+            <img src="assets/img/ghusan.png" />
+          </figure>
+        </header>
+
+        <section class="bio">
+          <h3>Biodata</h3>
+          <table>
+            <tr>
+              <th>Nama</th>
+              <td>: Ghusan Hidayat Nur</td>
+            </tr>
+            <tr>
+              <th>Alamat</th>
+              <td>: Kuningan, Jawa Barat</td>
+            </tr>
+            <tr>
+              <th>Pekerjaan</th>
+              <td>: Mahasiswa</td>
+            </tr>
+            <tr>
+              <th>email</th>
+              <td>: ghidayatnur@gmail.com</td>
+            </tr>
+            <tr>
+              <th>No Telepon</th>
+              <td>: +62 821 2499 xxxx</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023 - Ghusfood Resto </p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
